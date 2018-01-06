@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossfireSW.Config", "src\CrossfireSW.Config\CrossfireSW.Config.csproj", "{897C043A-A256-4974-B40F-9ED485A8CF06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossfireSW.Util", "src\CrossfireSW.Util\CrossfireSW.Util.csproj", "{F6343CCF-A334-4ECE-AE3A-900850FF01AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossfireSW.SolidWorks.Addin", "src\CrossfireSW.SolidWorks.Addin\CrossfireSW.SolidWorks.Addin.csproj", "{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Debug|x64.ActiveCfg = Debug|x64
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Debug|x64.Build.0 = Debug|x64
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Release|x64.ActiveCfg = Release|x64
+		{897C043A-A256-4974-B40F-9ED485A8CF06}.Release|x64.Build.0 = Release|x64
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Debug|x64.ActiveCfg = Debug|x64
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Debug|x64.Build.0 = Debug|x64
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Release|x64.ActiveCfg = Release|x64
+		{F6343CCF-A334-4ECE-AE3A-900850FF01AF}.Release|x64.Build.0 = Release|x64
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Debug|x64.ActiveCfg = Debug|x64
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Debug|x64.Build.0 = Debug|x64
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Release|x64.ActiveCfg = Release|x64
+		{7ACEDAA9-2DE8-4485-837A-E7D58812A6DC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53CD0C35-9CF5-4298-9C99-0C22BDDE3D11}
+	EndGlobalSection
+EndGlobal
