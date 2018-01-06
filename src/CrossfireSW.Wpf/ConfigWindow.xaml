@@ -1,0 +1,22 @@
+﻿<Window x:Class="CrossfireSW.Wpf.ConfigWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrossfireSW.Wpf"
+        xmlns:viewModels="clr-namespace:CrossfireSW.Wpf.ViewModel;assembly=CrossfireSW.Wpf.ViewModel"
+        DataContext="{DynamicResource ConfigViewModel}"
+        mc:Ignorable="d"
+        Title="Configuration" Height="355.191" Width="583.813">
+    <Window.Resources>
+        <viewModels:ConfigViewModel x:Key="ConfigViewModel"/>
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="CancelButton" Content="Cancel" Margin="0,0,10,10" IsCancel="True" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom"/>
+        <Button x:Name="SaveButton" Content="Save" Margin="0,0,90,10" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom"/>
+        <Grid HorizontalAlignment="Left" Width="339">
+            <DataGrid ItemsSource="{Binding NamingStandards}" HorizontalAlignment="Left" Width="319"  Height="156" Margin="10,10,0,158"  />
+            <DataGrid HorizontalAlignment="Left" Height="143" VerticalAlignment="Top" Width="319" Margin="10,171,0,0"/>
+        </Grid>
+    </Grid>
+</Window>
